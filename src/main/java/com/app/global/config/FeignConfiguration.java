@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @EnableFeignClients(basePackages = "com.app") // todo 패키지명 수정
-@Import(FeignConfiguration.class)
 public class FeignConfiguration {
 
     @Bean
